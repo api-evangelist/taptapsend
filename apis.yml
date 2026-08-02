@@ -1,8 +1,26 @@
 aid: taptapsend
-name: taptapsend
-description: taptapsend is a company surfaced as a portfolio company of balderton-capital and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/taptapsend.png
+name: Taptap Send
+description: >-
+  Taptap Send is a mobile money-transfer (remittance) application that lets people send money
+  from Europe, the UK, the US, and Canada to family and businesses across Africa, Asia, and Latin
+  America. The service supports bank deposits, mobile-money wallets, and cash pickups in 100+
+  receiving countries with competitive exchange rates and low fees, and operates as a licensed
+  and regulated money transmitter (FCA regulated, SOC 2 and PCI DSS attested) with bank-level
+  encryption. Taptap Send is a consumer-facing app and does not currently publish a public
+  developer API, developer portal, or API documentation; this profile captures its company
+  identity, security posture, and compliance program.
 url: https://raw.githubusercontent.com/api-evangelist/taptapsend/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Money Transfer
+- Remittances
+- Fintech
+- Payments
+- Mobile Money
+- Financial Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +47,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://taptapsend.com/
+  url: https://www.taptapsend.com/
+- type: Support
+  url: https://support.taptapsend.com/hc/
+- type: HelpCenter
+  url: https://taptapsend.zendesk.com/hc/
+- type: PrivacyPolicy
+  url: https://www.taptapsend.com/privacy-policy/global-privacy-policy/gpp/en
+- type: TermsOfService
+  url: https://www.taptapsend.com/en/legal/terms-and-conditions
+- type: TrustCenter
+  url: security/taptapsend-trust-center.yml
+- type: Compliance
+  url: https://www.taptapsend.com/en/security
+- type: DomainSecurity
+  url: security/taptapsend-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
